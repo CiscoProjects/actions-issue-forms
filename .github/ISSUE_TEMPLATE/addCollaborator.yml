@@ -16,14 +16,25 @@ body:
       [Adding collaboratos Guidelines](https://github.com/monalisa/project/issues)
       to see if your request will meet the requirements.
 - type: textarea
-  id: contact_info
+  id: contact_email
   attributes:
-    label: ">>Contact Info<<"
+    label: ">>User's Email<<"
     description: |
-      Add the users Corporate email address and full name
+      Add the users Corporate email address
     placeholder: |
       Example: 
-      email address, first name, last name
+      john.doe@acme.com
+  validations:
+    required: true
+- type: textarea
+  id: contact_name
+  attributes:
+    label: ">>Contact Name<<"
+    description: |
+      Add the users name
+    placeholder: |
+      Example: 
+      John Doe
   validations:
     required: true
 - type: textarea
