@@ -36,7 +36,8 @@ body:
       Example: 
       Joint development on project xxx
   validations:
-    required: true- type: dropdown
+    required: true
+- type: dropdown
   id: permission
   attributes:
     label: ">>permission<<"
